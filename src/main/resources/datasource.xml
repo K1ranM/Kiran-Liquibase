@@ -1,0 +1,16 @@
+<datasources>
+    <datasource>
+        <name>db1</name>
+        <url>jdbc:mysql://localhost:3306/liquibasedb1</url>
+        <username>root</username>
+        <password>root</password>
+        <driver-class-name>com.mysql.cj.jdbc.Driver</driver-class-name>
+    </datasource>
+    <datasource>
+        <name>db2</name>
+        <url>jdbc:mysql://localhost:3306/liquibasedb2</url>
+        <username>root</username>
+        <password>root</password>
+        <driver-class-name>com.mysql.cj.jdbc.Driver</driver-class-name>
+    </datasource>
+</datasources>
